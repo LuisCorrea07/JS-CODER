@@ -1,6 +1,4 @@
-let nombre = "";
-alert("Ingresa tu nombre por favor: ");
-nombre = prompt(nombre);
+var nombre = prompt("Ingresa tu nombre por favor: ");
 alert("Bienvenido! " + nombre + " disfruta de la app");
 
 const pantalla = document.querySelector(".pantalla");
@@ -28,6 +26,7 @@ botones.forEach(boton =>{
                 pantalla.textContent = eval(pantalla.textContent);    
             } catch {
                 pantalla.textContent = "Error!";
+                alert("Sintaxis incorrecta")
             }
             return;
         }
