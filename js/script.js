@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 document.addEventListener('DOMContentLoaded', function () {
     const listaProductos = document.getElementById('lista-productos');
     const listaCarrito = document.getElementById('lista-carrito');
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Cargar el carrito al cargar la página
     actualizarCarrito();
 });
-=======
+
 var personas = [];
 
 while (true) {
@@ -94,4 +94,4 @@ function calcularPromedio(notas) {
     var promedio = sumaNotas / notas.length;
     return promedio;
 }
->>>>>>> 3b1c8bd63162dc5b16063b9cc00e766f4c872b14
+
