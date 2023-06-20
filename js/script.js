@@ -55,10 +55,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     // Cargar el carrito al cargar la página
     actualizarCarrito();
-
-    
-
-
-
-
 });
